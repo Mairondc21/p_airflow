@@ -17,7 +17,7 @@ def api_postgres():
 
     @task(task_id='fetch_pokemon_data')
     def task_fetch_pokemon_data(numero_aleatorio):    
-        return fetch_pokemon_data(numero_aleatorio) 
+        return fetch_pokemon_data(numero_aleatorio)
 
     @task(task_id='add_pokemon_to_db')
     def task_add_pokemon_to_db(pokemon_data):    
