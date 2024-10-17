@@ -14,7 +14,7 @@ apache-airflow = "^2.10.2"
 pytest = "^8.3.3"
 requests = "^2.32.3"
 python-dotenv = "^1.0.1"
-pydantic = "^2.9.2"
+pydantic = "2.6.4"
 
 
 [build-system]
