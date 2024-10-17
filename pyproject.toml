@@ -17,7 +17,7 @@ pydantic = "2.6.4"
 apache-airflow-providers-postgres = "^5.13.1"
 astro-sdk-python = {version = "1.6.1", extras = ["duckdb"]}
 airflow-provider-duckdb = "0.2.0"
-duckdb = "0.9.2"
+duckdb = "1.1.1"
 
 
 [build-system]
